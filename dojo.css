@@ -1,0 +1,57 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+      
+  /* Clase fixed-width container que se "autocentrará" a sí misma */
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  .navbar {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    padding: 10px;
+} 
+
+.btn {
+  color: antiquewhite;
+  background-color: dodgerblue;
+  box-shadow: 2px 2px 2px 1px rgba(188, 188, 221, 0.767);
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.row {
+    display: flex;
+    margin: 10px;
+}
+.col {
+    background-color: aquamarine;
+    flex: 1;
+    margin: 10px;
+}
+.col-2 {
+    background-color: aquamarine;
+    flex: 2;
+    margin: 10px;
+}   
+.col-3 {
+    background-color: aquamarine;
+    flex: 3;
+    margin: 10px;
+}
+
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+  margin: 20px;
+}
